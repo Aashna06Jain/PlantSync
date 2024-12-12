@@ -43,43 +43,9 @@ A Plant Care App
   - Plant identification: Pre-trained image recognition models (e.g., TensorFlow or PyTorch).
   - Plant health diagnosis: Custom-trained models with data on common plant issues.
 - **Notifications**: Firebase Cloud Messaging.
+- **Dataset**: New Plant Diseases Dataset on Kaggle.
 
 ---
-
-## Installation
-
-To set up PlantSync locally, follow these steps:
-
-### Prerequisites
-- Node.js (or Python if using Django).
-- Mobile development environment (e.g., Android Studio, Xcode).
-- Firebase account (for database and notifications).
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/PlantSync.git
-   cd PlantSync
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Set up environment variables:
-   - Create a `.env` file and add your API keys for Firebase, ML services, etc.
-
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-
-5. Run the mobile app:
-   - Use `npx react-native run-android` or `npx react-native run-ios` (for React Native).
-
----
-
 
 ## Roadmap
 
